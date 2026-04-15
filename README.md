@@ -11,6 +11,34 @@ Registro Acadêmico: **00250458-1**
 
 ---
 
+## Etapa 1 – Análise
+
+Nesta etapa, foi realizada a análise do problema proposto para identificar as telas e elementos visuais necessários. O sistema foi projetado utilizando **Bootstrap 5** para garantir uma interface moderna, limpa e responsiva.
+
+### Esboços de Tela (Wireframes)
+
+Os esboços abaixo representam a estrutura visual planejada para o sistema, focando na usabilidade e na separação clara das funcionalidades solicitadas.
+
+#### 1. Tela de Login e Cadastro
+Esta tela permite o acesso seguro ao sistema e o registro de novos usuários.
+![Esboço da Tela de Login](assets/docs/wireframes/login.png)
+
+#### 2. Dashboard (As 4 Áreas)
+O painel principal organiza as funcionalidades em quatro seções distintas para facilitar a navegação e o fluxo de trabalho.
+![Esboço do Dashboard](assets/docs/wireframes/dashboard.png)
+
+### Boas Práticas de UX Implementadas
+
+Com base nas referências de UX Design, as seguintes práticas foram aplicadas no projeto:
+
+- **Simplicidade e Clareza**: A interface utiliza um layout limpo, evitando o excesso de informações e focando nas ações principais do usuário.
+- **Feedback Imediato**: O uso de **AJAX** permite que o usuário veja o resultado de suas ações (como cadastrar um produto ou adicionar à cesta) instantaneamente, sem recarregar a página.
+- **Hierarquia Visual**: Títulos claros e botões com cores distintas (Azul para ações primárias, Verde para sucesso, Vermelho para perigo) ajudam o usuário a identificar rapidamente o que fazer.
+- **Prevenção de Erros**: Validações via JavaScript/jQuery impedem o envio de formulários vazios ou a inclusão de produtos na cesta sem seleção prévia.
+- **Navegação Intuitiva**: Menus de navegação e abas facilitam a localização das funções, mantendo o usuário orientado dentro do sistema.
+
+---
+
 ## Objetivo do Projeto
 
 Este sistema foi desenvolvido como um trabalho acadêmico de engenharia de software, com o objetivo de aplicar técnicas avançadas de:
@@ -51,7 +79,8 @@ system/
 │   └── sales.php           → Processa a finalização da compra
 ├── assets/                 → Recursos de Front-end
 │   ├── css/style.css       → Estilos customizados e responsividade
-│   └── js/app.js           → Lógica jQuery/AJAX e manipulação do DOM
+│   ├── js/app.js           → Lógica jQuery/AJAX e manipulação do DOM
+│   └── docs/wireframes/    → Esboços de tela (Etapa 1 - Análise)
 ├── index.php               → Tela de Login e Cadastro de Usuários
 ├── dashboard.php           → Painel Principal (As 4 Áreas)
 ├── logout.php              → Encerramento de sessão
