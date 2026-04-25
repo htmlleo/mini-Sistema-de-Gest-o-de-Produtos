@@ -4,11 +4,12 @@ Sistema web completo para gestão de produtos, fornecedores e vendas, desenvolvi
 
 ---
 
-## Desenvolvedor
+## Desenvolvedores
 
-**Leonardo Estevão Alves**  
-Registro Acadêmico: **00250458-1**
-
+Leonardo Estevão Alves
+Registro Acadêmico: 00250458-1
+Vinicius Correia De Andrade 
+Registro Acadêmico 251953-1
 ---
 
 ## Etapa 1 – Análise
